@@ -1,0 +1,52 @@
+version: 0.0.1
+type: plugin
+author: migege
+name: markdown2html
+label:
+  en_US: markdown2html
+  ja_JP: markdown2html
+  zh_Hans: markdown2html
+  pt_BR: markdown2html
+description:
+  en_US: Convert content from markdown to HTML
+  ja_JP: Convert content from markdown to HTML
+  zh_Hans: 将Markdown内容转换为HTML
+  pt_BR: Convert content from markdown to HTML
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: false
+      llm: false
+      text_embedding: false
+      rerank: false
+      tts: false
+      speech2text: false
+      moderation: false
+    node:
+      enabled: false
+    endpoint:
+      enabled: false
+    app:
+      enabled: false
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/markdown2html.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-05-27T16:00:07.883064969+08:00
+privacy: PRIVACY.md
+repo: https://github.com/migege/markdown2html
+verified: false

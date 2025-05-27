@@ -1,0 +1,30 @@
+identity:
+  name: markdown2html
+  author: migege
+  label:
+    en_US: markdown2html
+    zh_Hans: markdown2html
+    pt_BR: markdown2html
+description:
+  human:
+    en_US: Convert content from markdown to HTML
+    zh_Hans: 将Markdown内容转换为HTML
+    pt_BR: Convert content from markdown to HTML
+  llm: Convert content from markdown to HTML
+parameters:
+  - name: text
+    type: string
+    required: true
+    label:
+      en_US: Text
+      zh_Hans: 文本
+      pt_BR: Text
+    human_description:
+      en_US: Convert content from markdown to HTML
+      zh_Hans: 将Markdown内容转换为HTML
+      pt_BR: Convert content from markdown to HTML
+    llm_description: Convert content from markdown to HTML
+    form: llm
+extra:
+  python:
+    source: tools/markdown2html.py
