@@ -8,10 +8,10 @@ label:
   zh_Hans: markdown2html
   pt_BR: markdown2html
 description:
-  en_US: Convert content from markdown to HTML
-  ja_JP: Convert content from markdown to HTML
-  zh_Hans: 将Markdown内容转换为HTML
-  pt_BR: Convert content from markdown to HTML
+  en_US: Convert content from Markdown to HTML
+  ja_JP: MarkdownからHTMLにコンテンツを変換する
+  zh_Hans: 将内容从 Markdown 转换为 HTML
+  pt_BR: Converter conteúdo de Markdown para HTML
 icon: icon.svg
 resource:
   memory: 268435456

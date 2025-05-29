@@ -6,9 +6,9 @@ identity:
     zh_Hans: markdown2html
     pt_BR: markdown2html
   description:
-    en_US: Convert content from markdown to HTML
-    zh_Hans: Convert content from markdown to HTML
-    pt_BR: Convert content from markdown to HTML
+    en_US: Convert content from Markdown to HTML
+    zh_Hans: 将内容从 Markdown 转换为 HTML
+    pt_BR: Converter conteúdo de Markdown para HTML
   icon: icon.svg
 tools:
   - tools/markdown2html.yaml
